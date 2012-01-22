@@ -19,29 +19,77 @@ h1 strong {
   font-size: 1.8em;
 }
 
+#info {
+  float: left;
+  width: 48%;
+  font-size: 1.1em;
+}
+
+h2 {
+  padding-left: 5px;
+  font-size: 1.3em;
+}
+
+h2 small {
+  color: #ddd;
+}
+
+#info ul {
+  padding: 20px;
+  color: #ddd;
+}
+
+#info ul li {
+  margin-bottom: 10px;
+}
+
+#info ul li strong {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#info #wiki {
+  padding: 20px;
+}
+
+#info #tags a {
+  margin-right: 5px;
+  
+}
+
+#suggestions {
+  float: right;
+  width: 48%;
+}
+
 #results {
   margin: 20px 0px;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 #results li {
   display: block;
-  padding: 15px 15px 15px 200px;
+  padding: 10px 10px 10px 10px;
   background-position: left center;
   background-repeat: no-repeat;
   -webkit-transition: all 0.3s linear;
 }
 
 #results li:hover {
-    padding: 50px 15px 50px 200px;
+    padding: 30px 10px 30px 10px;
 }
 
 #results li a {
-  color: #ddd;
-  padding: 15px 15px;
-  font-weight: bold;
+  color: #bbb;
+  padding: 10px 10px;
   background: rgba(0,0,0,0.9);
+}
+#results li a span {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #ddd;
 }
 
 #results li a:hover {

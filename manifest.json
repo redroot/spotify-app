@@ -1,11 +1,12 @@
 {
   "BundleType": "Application",
   "AppName": {
-    "en": "Suggestify" 
+    "en": "Swotify" 
   },
   "SupportedLanguages": "en", 
   "RequiredPermissions": [
     "http://*.echonest.com",
-    "http://*.spotify.com"
+    "http://*.spotify.com",
+    "http://*.audioscrobbler.com"
   ]
 }

@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Suggestify!</title>
+    <title>Swotify!</title>
     <link rel="stylesheet" href="sp://import/css/adam.css" />
-        <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <h1>Here is a generated tracklist for your current song: <strong></strong></h1>
-    <ul id="results"></ul>
+    <h1>Info and suggestions for your current song: <strong></strong></h1>
+    <div id="info">
+      <h2>Info<small>- from last.fm</small></h2>
+      <ul id="stats">
+        <li id="duration"><strong>Duration:</strong><span></span></li>
+        <li id="listeners"><strong>Listeners:</strong><span></span></li>
+        <li id="playcount"><strong>Playcount:</strong><span></span></li>
+        <li id="tags"><strong>Tags</strong><span></span></li>
+      </ul>
+    </div>
+    <div id="suggestions">
+      <h2>Suggestions<small>- from EchoNest</small></h2>
+      <ul id="results"></ul>
+    </div>
     <script type="text/javascript"  src="zepto.js" ></script>
     <script type="text/javascript"  src="app.js" ></script>
   </body>
