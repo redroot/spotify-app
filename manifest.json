@@ -1,0 +1,11 @@
+{
+  "BundleType": "Application",
+  "AppName": {
+    "en": "Suggestify" 
+  },
+  "SupportedLanguages": "en", 
+  "RequiredPermissions": [
+    "http://*.echonest.com",
+    "http://*.spotify.com"
+  ]
+}

@@ -1,0 +1,50 @@
+html, body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "san-serif";
+  background: #000;
+}
+
+h1 {
+  background: #fff;
+  border-bottom: 5px solid #ccc;
+  color: #666;
+  font-size: 1.2em;
+  padding: 20px 20px;
+  margin-bottom: 30px;
+}
+
+h1 strong {
+  display: block;
+  margin-top: 10px;
+  color: #444;
+  font-size: 1.8em;
+}
+
+#results {
+  margin: 20px 0px;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#results li {
+  display: block;
+  padding: 15px 15px 15px 200px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s linear;
+}
+
+#results li:hover {
+    padding: 50px 15px 50px 200px;
+}
+
+#results li a {
+  color: #ddd;
+  padding: 15px 15px;
+  font-weight: bold;
+  background: rgba(0,0,0,0.9);
+}
+
+#results li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
